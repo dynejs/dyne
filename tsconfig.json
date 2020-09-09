@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noLib": false,
+        "declaration": true,
+        "target": "es2017",
+        "esModuleInterop": true,
+        "incremental": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "outDir": "./dist",
+        "lib": ["es7"],
+        "types": [
+            "node"
+        ]
+    },
+    "exclude": [
+        "dist",
+        "node_modules"
+    ],
+    "include": [
+        "./src/**/*"
+    ]
+}
