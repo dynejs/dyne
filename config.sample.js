@@ -1,8 +1,5 @@
 'use strict'
 
-const {paymentCard} = require('./dist/payment/payment-card')
-const {paymentCash} = require('./dist/payment/payment-cash')
-
 module.exports = {
     root: __dirname,
 
@@ -15,11 +12,6 @@ module.exports = {
     locale: 'en',
 
     dateFormat: '{YYYY}-{MM}-{DD} - {HH}:{mm}',
-
-    paymentMethods: {
-        card: paymentCard,
-        cash: paymentCash
-    },
 
     database: {
         host: '127.0.0.1',
@@ -41,13 +33,6 @@ module.exports = {
         secret: ''
     },
 
-    braintree: {
-        env: 'Sandbox',
-        id: '',
-        public: '',
-        private: ''
-    },
-
     imageSizes: {
         square: {
             width: 400,
@@ -62,8 +47,6 @@ module.exports = {
             height: 600
         }
     },
-
-    theme: 'front',
 
     migrations: [
         __dirname + '/migrations'

@@ -14,7 +14,7 @@ export class UserController {
     @Get('/')
     async index(req: Request, res: Response) {
         const users = await user().get()
-        const theme = this.sampleService.getTheme()
+        const theme = this.sampleService.getEnv()
         res.renderPage('users', {users, theme})
     }
 

@@ -16,7 +16,7 @@
         "node": ">=8.3.0"
     },
     "dependencies": {
-        "@dynejs/core": "^0.0.7"
+        "@dynejs/core": "^0.0.8"
     },
     "devDependencies": {
         "@iamzozo/utilscss": "0.0.10",

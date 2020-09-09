@@ -9,7 +9,7 @@ export class SampleService {
         this.config = config
     }
 
-    getTheme() {
-        return this.config.get('theme')
+    getEnv() {
+        return this.config.get('env')
     }
 }

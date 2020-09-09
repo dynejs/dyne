@@ -48,8 +48,6 @@ module.exports = {
         }
     },
 
-    theme: 'front',
-
     migrations: [
         __dirname + '/migrations'
     ],
