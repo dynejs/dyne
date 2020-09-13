@@ -14,8 +14,8 @@ Features:
  - Checkout or download
  - run `npm install`
  - compiling typescript to js: `npm build`
- - setup the `config.js`
  - copy `config.sample.js` to `config.js` and set parameters
+ - run `npm run start`
 
 ## Container
 Dyne provides a very simple service container, where we can register our classes. These registered classes can be automatically injected into other services.
