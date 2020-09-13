@@ -33,21 +33,6 @@ module.exports = {
         secret: ''
     },
 
-    imageSizes: {
-        square: {
-            width: 400,
-            height: 400
-        },
-        logo: {
-            width: 300,
-            height: 200
-        },
-        header: {
-            width: 1200,
-            height: 600
-        }
-    },
-
     migrations: [
         __dirname + '/migrations'
     ],
