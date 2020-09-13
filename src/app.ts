@@ -1,10 +1,7 @@
-import { container, createApp, Router } from '@dynejs/core'
-import './container'
+import { app, BaseModule } from '@dynejs/core'
+import { AppModule } from './app.module'
 
-const app = createApp()
-
-const router = container.resolve(Router)
-
-router.run(app)
-
-module.exports = app
+app([
+    BaseModule,
+    AppModule
+])

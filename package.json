@@ -1,13 +1,13 @@
 {
     "name": "@dynejs/dyne",
-    "main": "./server.js",
+    "main": "./dist/app.js",
     "version": "0.0.1",
     "scripts": {
         "build": "tsc",
         "dev": "tsc -w",
         "test": "mocha --require ts-node/register ./test/nav.test.ts --exit",
         "test-db": "ts-node ./test/setup/migrate.ts",
-        "start": "node ./server.js"
+        "start": "node ./dist/app.js"
     },
     "bin": {
         "dyne": "./dist/bin/dyne.js"
@@ -16,7 +16,7 @@
         "node": ">=10.16.0"
     },
     "dependencies": {
-        "@dynejs/core": "^0.0.8"
+        "@dynejs/core": "^0.0.10"
     },
     "devDependencies": {
         "@iamzozo/utilscss": "0.0.10",
