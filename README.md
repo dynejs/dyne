@@ -2,7 +2,7 @@
 
 Dyne is a small framework for building server-side applications. Its built on top of Node Express, uses modern javascript and built with Typescript.
 
-> This is a sample/bootstrap app demo, for the library visit: [Core](https://github.com/dynejs/core)   
+> This is a sample/bootstrap app which uses @dynejs/core. For the library visit: [Core](https://github.com/dynejs/core)   
 > Checkout an example application on github: [Dyne-Store](https://github.com/dynejs/store) - (UNDER DEVELOPMENT)
 
 Features:
